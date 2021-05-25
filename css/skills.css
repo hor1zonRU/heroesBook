@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.skill-card {
+    max-width: 200px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 20px;
+
+    background-color: #52331F;
+    border: 10px solid #6D1D07;
+
+    position: relative;
+}
+
+.skill-card-title {
+    text-align: center;
+}
+
+.skill-card-img {
+    width: 75px;
+    height: 75px;
+}
+
+.skill-card-descr {
+    text-align: center;
+}
+
+.left, .right {
+    position: absolute;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+
+.left {
+    top: 100px;
+    left: 3px;
+}
+
+.right {
+    top: 100px;
+    left: 160px;
+}
+
+.footer {
+    min-height: 100px;
+    background-color: lightgray;
+}

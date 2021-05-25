@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.magic-book {
+	display: flex;
+	justify-content: flex-start;
+	position: relative;
+}
+
+.heroes-title h2 {
+    text-align: center;
+}
+
+.tab {
+    background-image: url("/img/spells/bg_spells.jpg");
+
+    margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+  
+.tab button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 10px;
+    transition: 0.3s;
+}
+
+  
+.tab button:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+.tab button.active {
+    background-image: url("/img/spells/bg_spells.jpg");
+}
+
+  
+.tabcontent {
+	min-width: 915px;
+	min-height: 610px;
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+	position: absolute;
+	top: 20px;
+	left: 115px;
+	background: url("/img/spells/bg_spells.jpg") repeat;
+}
+
+.tabcontent-wrapper {
+    display: flex;
+}
+

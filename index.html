@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page about castle fraction in heroes 3, сраничка про замок людей в героях 3">
+    <meta name="keywords" content="heroes 3, heroes 3 castle, about castle fraction, герои 3, герои 3 замок, раса людей герои 3">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/castle/icon_castle.jpg">
+    <link rel="stylesheet" href="/css/castle.css">
+    <title>About Castle Fraction</title>
+</head>
+
+<body>
+    <section class="main-screen">
+       
+        <div class="point tavern"></div>
+        <div class="point capitol"></div>
+        <div class="point griffin"></div>
+        <div class="point pikeman"></div>
+        <div class="point archer"></div>
+        <div class="point swordsman"></div>
+        <div class="point angel"></div>
+        <div class="point monk"></div>
+        <div class="point cavalier"></div>
+        <div class="point forge"></div>
+        <div class="point lighthouse"></div>
+        <div class="point castle"></div>
+        <div class="point mage-tower" title="click me to look inside the magic book of spells"></div>
+        <div class="point marketplace"></div>
+        <div class="point silo"></div>
+        <div class="point port"></div>
+        <div class="point graal"></div>
+        <div class="point stables"></div>
+        
+        <!-- <audio class="main-audio" src="/sound/snd_castle.mp3" controls loop></audio> -->
+     
+
+        <div class="modal modal-pikeman hide">
+            <h3>Сторожевой пост. Здесь можно нанять копейщиков или алебардщиков:</h3>
+            <div class="modal-img">
+                <img src="/img/castle/units_pikeman.png" alt="pikeman">
+                <img src="/img/castle/units_halberdier.png" alt="halberdier">
+            </div>
+            <h4>Характеристики:</h4>
+            <div class="modal-char">
+                <div class="left-char">
+                    <p>Атака: 4</p>
+                    <p>Защита: 5</p>
+                    <p>Урон: 1-3</p>
+                    <p>Здоровье: 10</p>
+                    <p>Скорость: 4</p>
+                </div>
+                <div class="right-char">
+                    <p>Атака: 6</p>
+                    <p>Защита: 5</p>
+                    <p>Урон: 2-3</p>
+                    <p>Здоровье: 10</p>
+                    <p>Скорость: 5</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal modal-griffin hide">
+            <h3>Башня грифонов. Здесь можно нанять грифонов или королевских грифонов:</h3>
+            <div class="modal-img">
+                <img src="/img/castle/units_griffin.png" alt="griffin">
+                <img src="/img/castle/units_royal_griffn.png" alt="royal_griffin">
+            </div>
+            <h4>Характеристики:</h4>
+            <div class="modal-char">
+                <div class="left-char">
+                    <p>Атака: 8</p>
+                    <p>Защита: 8</p>
+                    <p>Урон: 3-6</p>
+                    <p>Здоровье: 25</p>
+                    <p>Скорость: 6</p>
+                </div>
+                <div class="right-char">
+                    <p>Атака: 9</p>
+                    <p>Защита: 9</p>
+                    <p>Урон: 2-3</p>
+                    <p>Здоровье: 10</p>
+                    <p>Скорость: 9</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal modal-swordsman hide">
+            <h3>Казармы. Здесь можно нанять рыцарей или крестоносцев:</h3>
+            <div class="modal-img">
+                <img src="/img/castle/units_swordsman.png" alt="swordsman">
+                <img src="/img/castle/units_crusader.png" alt="crusader">
+            </div>
+            <h4>Характеристики:</h4>
+            <div class="modal-char">
+                <div class="left-char">
+                    <p>Атака: 10</p>
+                    <p>Защита: 12</p>
+                    <p>Урон: 6-9</p>
+                    <p>Здоровье: 35</p>
+                    <p>Скорость: 5</p>
+                </div>
+                <div class="right-char">
+                    <p>Атака: 12</p>
+                    <p>Защита: 12</p>
+                    <p>Урон: 7-10(x2)</p>
+                    <p>Здоровье: 35</p>
+                    <p>Скорость: 6</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal modal-archer hide">
+            <h3>Башня лучников. Здесь можно нанять лучников или стрелков:</h3>
+            <div class="modal-img">
+                <img src="/img/castle/units_archer.png" alt="archer">
+                <img src="/img/castle/units_marksman.png" alt="marksman">
+            </div>
+            <h4>Характеристики:</h4>
+            <div class="modal-char">
+                <div class="left-char">
+                    <p>Атака: 6</p>
+                    <p>Защита: 3</p>
+                    <p>Урон: 2-3</p>
+                    <p>Здоровье: 10</p>
+                    <p>Скорость: 4</p>
+                </div>
+                <div class="right-char">
+                    <p>Атака: 6</p>
+                    <p>Защита: 3</p>
+                    <p>Урон: 2-3(x2)</p>
+                    <p>Здоровье: 10</p>
+                    <p>Скорость: 6</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal modal-angel hide">
+            <h3>Портал славы. Здесь можно нанять ангелов или архангелов:</h3>
+            <div class="modal-img">
+                <img src="/img/castle/units_angel.png" alt="angel">
+                <img src="/img/castle/units_archangel.jpg" alt="archangel">
+            </div>
+            <h4>Характеристики:</h4>
+            <div class="modal-char">
+                <div class="left-char">
+                    <p>Атака:20</p>
+                    <p>Защита: 20</p>
+                    <p>Урон: 50</p>
+                    <p>Здоровье: 200</p>
+                    <p>Скорость: 12</p>
+                </div>
+                <div class="right-char">
+                    <p>Атака: 30</p>
+                    <p>Защита: 30</p>
+                    <p>Урон: 50</p>
+                    <p>Здоровье: 250</p>
+                    <p>Скорость: 18</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal modal-monk hide">
+            <h3>Монастырь. Здесь можно нанять монахов или фанатиков:</h3>
+            <div class="modal-img">
+                <img src="/img/castle/units_monk.png" alt="monk">
+                <img src="/img/castle/units_zealot.png" alt="fanatic">
+            </div>
+            <h4>Характеристики:</h4>
+            <div class="modal-char">
+                <div class="left-char">
+                    <p>Атака:12</p>
+                    <p>Защита: 7</p>
+                    <p>Урон: 10-12</p>
+                    <p>Здоровье: 30</p>
+                    <p>Скорость: 5</p>
+                </div>
+                <div class="right-char">
+                    <p>Атака: 12</p>
+                    <p>Защита: 10</p>
+                    <p>Урон: 10-12</p>
+                    <p>Здоровье: 30</p>
+                    <p>Скорость: 7</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal modal-cavalier hide">
+            <h3>Ристалище. Здесь можно нанять кавалеристов или чемпионов:</h3>
+            <div class="modal-img">
+                <img src="/img/castle/units_cavalier.png" alt="cavalier">
+                <img src="/img/castle/units_champion.png" alt="champion">
+            </div>
+            <h4>Характеристики:</h4>
+            <div class="modal-char">
+                <div class="left-char">
+                    <p>Атака:15</p>
+                    <p>Защита: 15</p>
+                    <p>Урон: 15-25</p>
+                    <p>Здоровье: 100</p>
+                    <p>Скорость: 7</p>
+                </div>
+                <div class="right-char">
+                    <p>Атака: 16</p>
+                    <p>Защита: 16</p>
+                    <p>Урон: 20-25</p>
+                    <p>Здоровье: 100</p>
+                    <p>Скорость: 9</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <section class="main-content">
+
+        <div class="container">
+            
+            <div class="main-content-left">
+                <section class="description">
+                    <h2>Описание фракции</h2>
+                    <p>Замок часто является первой фракцией за которую удаётся поиграть новичку. Компания за замок стоит на первом месте и игра предлагает начать ознакомления с героями именно с расы людей. Казалось бы, при всей универсальности, замок является отнюдь не лёгким выбором для опытных игроков и вариантов развития за замок достаточно много, особенно, если вы играете против других игроков на более или менее приличном уровне. В замке множество сильных существ, взять хотя бы архангелов или чемпионов. Героя можно выбрать как война, так и мага, собственно, как и во всех других расах. Обязательным навыком для войнов будет лидерство, которое позволяет всегда иметь положительную мораль, что, также, позволяет привлекать других существ из других фракций к себе в армию. Маги, они же священники у замка, могут изучить заклинания, вплоть до 4-го уровня гильдии магов, что не делает магов фракции замка супер колдунами. Н они бльше заточены под различные улучшения своей армиии. Впрочем, захватив другой замок, другой фракции, где есть все 5 уровней магии, при условии наличия экспертной мудрости, даст вам возможность выучить так же заклинания 5-го уровня. В общем и целом, достаточно универсальная раса по всем показателям с приятными существами и героями.<p>
+                </section>
+                
+                <section class="heroes">
+                
+                    <h2 class="heroes-title">Герои фракции замок</h2>
+                
+                    <div class="heroes-clerics">
+                        <div class="tab">
+                            <button class="tablinks" onclick="openHero(event, 'Adela')">
+                                <img src="/img/castle/heroes_clerics_adela.jpg" alt="Adela">
+                                <h4>Адель</h4>
+                            </button>
+                            <button class="tablinks" onclick="openHero(event, 'Caitlin')">
+                                <img src="/img/castle/heroes_clerics_caitlin.jpg" alt="Caitlin">
+                                <h4>Кейтлин</h4>
+                            </button>
+                            <button class="tablinks" onclick="openHero(event, 'Cuthbert')">
+                                <img src="/img/castle/heroes_clerics_cuthbert.jpg" alt="Cuthbert">
+                                <h4>Катберд</h4>
+                            </button>
+                            <button class="tablinks" onclick="openHero(event, 'Ingham')">
+                                <img src="/img/castle/heroes_clerics_ingham.jpg" alt="Ingham">
+                                <h4>Ингэм</h4>
+                            </button>
+                            <button class="tablinks" onclick="openHero(event, 'Loynis')">
+                                <img src="/img/castle/heroes_clerics_loynis.jpg" alt="Loynis">
+                                <h4>Лойнис</h4>
+                            </button>
+                            <button class="tablinks" onclick="openHero(event, 'Rion')">
+                                <img src="/img/castle/heroes_clerics_rion.jpg" alt="Rion">
+                                <h4>Рион</h4>
+                            </button>
+                            <button class="tablinks" onclick="openHero(event, 'Sanya')">
+                                <img src="/img/castle/heroes_clerics_sanya.jpg" alt="Sanya">
+                                <h4>Соня</h4>
+                            </button>
+                            <button class="tablinks" onclick="openHero(event, 'Adelaide')">
+                                <img src="/img/castle/heroes_clerics_adelaide.jpg" alt="Adelaide">
+                                <h4>Аделаида</h4>
+                            </button>
+                
+                            <figure class="heroes-descr">Клерики фракции замок</figure>
+                        </div>
+                
+                        <div id="Adela" class="tabcontent">
+                            <div class="tabcontent-wrapper">
+                                <div class="left-content">
+                                    <h3>Описание героя:</h3>
+                                    <p>Адель обычно предпочитала демонстрировать свои таланты до начала сражения. Если ей не удавалось
+                                        убедить своего командира не ввязываться в бой, она всегда благословляла войска, идущие в битву.
+                                        Потом ей поручили командовать гарнизонам Уайтстоуна.</p>
+                                </div>
+                                <div class="right-content">
+                                    <h3>Навыки и специализация:</h3>
+                                    <figure class="">
+                                        <h4>Адела является клериком, обладающим на старте вторичными навыками базового уровня:</h4>
+                                        <figure class="r-con-skill">
+                                            <img src="/img/skills/wisdom.jpg" alt="Навык мудрость" width="60px" height="65px">
+                                            <figcaption>Мудрость</figcaption>
+                                            <img src="/img/skills/diplomacy.png" alt="Навык дипломатия" width="60px" height="65px">
+                                            <figcaption>Дипломатия</figcaption>
+                                        </figure>
+                                    </figure>
+                                    <h4>Специализация:</h4>
+                                    <figure class="r-con-special">
+                                        <img src="/img/specialization/bless.png" alt="Благословление" width="60px" height="65px">
+                                        <p>«Благословение» – уникальная магическая специализация, которой обладает только Адель.
+                                            Заклинание не только обеспечивает отряду максимальный урон, но ещё и повышает (!) его на 3%
+                                            за каждый уровень героя, кратный уровню существ отряда</p>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div id="Caitlin" class="tabcontent">
+                            <div class="tabcontent-wrapper">
+                                <div class="left-content">
+                                    <h3>Описание героя:</h3>
+                                    <p>До того как Кейтлин доверили командование, её считали одержимой злым духом. Но слухи слухами, а
+                                        приношения, которые получала её церковь, когда она ещё состояла в её рядах, ещё никому не
+                                        удалось превзойти.</p>
+                                </div>
+                                <div class="right-content">
+                                    <h3>Навыки и специализация:</h3>
+                                    <figure class="">
+                                        <h4>Кейтлин является клериком, обладающим на старте вторичными навыками базового уровня:</h4>
+                                        <figure class="r-con-skill">
+                                            <img src="/img/skills/wisdom.jpg" alt="Навык мудрость" width="60px" height="65px">
+                                            <figcaption>Мудрость</figcaption>
+                                            <img src="/img/skills/intelligence.jpg" alt="Навык интеллект" width="60px" height="65px">
+                                            <figcaption>Интеллект</figcaption>
+                                        </figure>
+                                    </figure>
+                                    <h4>Специализация:</h4>
+                                    <figure class="r-con-special">
+                                        <img src="/img/specialization/gold.png" alt="+350 золотых" width="60px" height="65px">
+                                        <p>Герой ежедневно добавляет 350 золотых к общему доходу.</p>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div id="Cuthbert" class="tabcontent">
+                            <div class="tabcontent-wrapper">
+                                <div class="left-content">
+                                    <h3>Описание героя:</h3>
+                                    <p>Ещё в молодости Катберт баловался тёмной магией, но когда его жену убило сплетённое им и вышедшее
+                                        из-под контроля заклинание, он обратился к силам добра и больше не вспоминал о прошлом. Теперь
+                                        же его знание секретов тёмной магии даёт ему преимущества, которых нет ни у кого другого.</p>
+                                </div>
+                                <div class="right-content">
+                                    <h3>Навыки и специализация:</h3>
+                                    <figure class="">
+                                        <h4>Катберт является клериком, обладающим на старте вторичными навыками базового уровня:</h4>
+                                        <figure class="r-con-skill">
+                                            <img src="/img/skills/wisdom.jpg" alt="Навык мудрость" width="60px" height="65px">
+                                            <figcaption>Мудрость</figcaption>
+                                            <img src="/img/skills/estates.jpg" alt="Навык имущество" width="60px" height="65px">
+                                            <figcaption>Имущество</figcaption>
+                                        </figure>
+                                    </figure>
+                                    <h4>Специализация:</h4>
+                                    <figure class="r-con-special">
+                                        <img src="/img/specialization/weakness.png" alt="Слабость" width="60px" height="65px">
+                                        <p>Эффект заклинания «Слабость» усиливается в зависимости от того, насколько уровень героя
+                                            превосходит уровень цели (действует сильнее на слабые войска).</p>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div id="Ingham" class="tabcontent">
+                            <div class="tabcontent-wrapper">
+                                <div class="left-content">
+                                    <h3>Описание героя:</h3>
+                                    <p>До пришествия криган Ингэм был настоятелем небольшого монастыря. Теперь времена изменились, и
+                                        Ингэму с его монахами пришлось встать под знамена Эрафии.</p>
+                                </div>
+                                <div class="right-content">
+                                    <h3>Навыки и специализация:</h3>
+                                    <figure class="">
+                                        <h4>Ингэм является клериком, обладающим на старте вторичными навыками базового уровня:</h4>
+                                        <figure class="r-con-skill">
+                                            <img src="/img/skills/wisdom.jpg" alt="Навык мудрость" width="60px" height="65px">
+                                            <figcaption>Мудрость</figcaption>
+                                            <img src="/img/skills/mysticism.png" alt="Навык монахи" width="60px" height="65px">
+                                            <figcaption>Мистицизм</figcaption>
+                                        </figure>
+                                    </figure>
+                                    <h4>Специализация:</h4>
+                                    <figure class="r-con-special">
+                                        <img src="/img/specialization/monks.png" alt="Монахи" width="60px" height="65px">
+                                        <p>Повышает навыки атаки и защиты монахов и фанатиков при получении каждого уровня после пятого.
+                                        </p>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div id="Loynis" class="tabcontent">
+                            <div class="tabcontent-wrapper">
+                                <div class="left-content">
+                                    <h3>Описание героя:</h3>
+                                    <p>Лойнис всегда говорил, что там, где работает настоящая магия и творятся молитвы, грубая сила не
+                                        нужна. Самое удивительное, он доказал правоту своих слов делом и теперь считает неоспоримым
+                                        лидером, хотя и не совсем обычным по общим меркам.</p>
+                                </div>
+                                <div class="right-content">
+                                    <h3>Навыки и специализация:</h3>
+                                    <figure class="">
+                                        <h4>Лойнис является клериком, обладающим на старте вторичными навыками базового уровня:</h4>
+                                        <figure class="r-con-skill">
+                                            <img src="/img/skills/wisdom.jpg" alt="Навык мудрость" width="60px" height="65px">
+                                            <figcaption>Мудрость</figcaption>
+                                            <img src="/img/skills/education.png" alt="Навык обучение" width="60px" height="65px">
+                                            <figcaption>Обучение</figcaption>
+                                        </figure>
+                                    </figure>
+                                    <h4>Специализация:</h4>
+                                    <figure class="r-con-special">
+                                        <img src="/img/specialization/pray.png" alt="Молитва" width="60px" height="65px">
+                                        <p>Эффект заклинания «Молитва» усиливается от того, насколько уровень героя превосходит уровень
+                                            цели (действует сильнее на слабые войска).</p>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div id="Rion" class="tabcontent">
+                            <div class="tabcontent-wrapper">
+                                <div class="left-content">
+                                    <h3>Описание героя:</h3>
+                                    <p>Рион служил полевым лекарем в эрафийской армии, но доказал свои способности боевого командира,
+                                        когда его капитан пал в очередном сражении с криганскими ордами. Хитроумным манёвром Рион сумел
+                                        выиграть время до подхода подкрепления.</p>
+                                </div>
+                                <div class="right-content">
+                                    <h3>Навыки и специализация:</h3>
+                                    <figure class="">
+                                        <h4>Рион является клериком, обладающим на старте вторичными навыками базового уровня:</h4>
+                                        <figure class="r-con-skill">
+                                            <img src="/img/skills/wisdom.jpg" alt="Навык мудрость" width="60px" height="65px">
+                                            <figcaption>Мудрость</figcaption>
+                                            <img src="/img/skills/first-aid.png" alt="Навык первая помощь" width="60px" height="65px">
+                                            <figcaption>Первая помощь</figcaption>
+                                        </figure>
+                                    </figure>
+                                    <h4>Специализация:</h4>
+                                    <figure class="r-con-special">
+                                        <img src="/img/specialization/first_aid.png" alt="Первая помощь" width="60px" height="65px">
+                                        <p>Прибавляет дополнительные 5% к процентному показателю навыка Первая Помощь за каждый новый
+                                            уровень.</p>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div id="Sanya" class="tabcontent">
+                            <div class="tabcontent-wrapper">
+                                <div class="left-content">
+                                    <h3>Описание героя:</h3>
+                                    <p>Соня всегда была прилежной ученицей, и, став дочерью церкви, она быстро стала первой среди
+                                        учеников, а затем превзошла и самих монахов. У неё природное чутье на волшбу. Иногда, чтобы
+                                        освоить заклинание, ей достаточно посмотреть, как это делают другие.</p>
+                                </div>
+                                <div class="right-content">
+                                    <h3>Навыки и специализация:</h3>
+                                    <figure class="">
+                                        <h4>Соня является клериком, обладающим на старте вторичными навыками базового уровня:</h4>
+                                        <figure class="r-con-skill">
+                                            <img src="/img/skills/wisdom.jpg" alt="Навык мудрость" width="60px" height="65px">
+                                            <figcaption>Мудрость</figcaption>
+                                            <img src="/img/skills/eagle-eye.jpg" alt="Навык зоркость" width="60px" height="65px">
+                                            <figcaption>Зоркость</figcaption>
+                                        </figure>
+                                    </figure>
+                                    <h4>Специализация:</h4>
+                                    <figure class="r-con-special">
+                                        <img src="/img/specialization/eagle-eye.png" alt="Зоркость" width="60px" height="65px">
+                                        <p>Добавляет дополнительные 5% за каждый новый уровень к процентному показателю навыка Зоркость.
+                                        </p>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div id="Adelaide" class="tabcontent">
+                            <div class="tabcontent-wrapper">
+                                <div class="left-content">
+                                    <h3>Описание героя:</h3>
+                                    <p>Однажды корабль Аделаиды попал в шторм и потерпел крушение у берегов Вори, страны cнежных эльфов.
+                                        Аделаида постигала их тайны целых двадцать лет, а когда вернулась в Эрафию, то обнаружила, что
+                                        время здесь остановилось, и с момента её отъезда не прошло и дня.</p>
+                                </div>
+                                <div class="right-content">
+                                    <h3>Навыки и специализация:</h3>
+                                    <figure class="">
+                                        <h4>Аделаида является клериком, обладающим на старте вторичным навыком продвинутого уровня:</h4>
+                                        <figure class="r-con-skill r-con-skill-adelaide">
+                                            <img src="/img/skills/wisdom-advanced.png" alt="Навык продвинутая мудрость" width="60px"
+                                                height="65px">
+                                            <figcaption>Продвинутая мудрость</figcaption>
+                                        </figure>
+                                    </figure>
+                                    <h4>Специализация:</h4>
+                                    <figure class="r-con-special">
+                                        <img src="/img/specialization/frost-ring.png" alt="Кольцо холода" width="60px" height="65px">
+                                        <p>Эффект заклинания «Кольцо холода» усиливается в зависимости от того, насколько уровень героя
+                                            превосходит уровень цели (действует сильнее на слабые войска).</p>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="heroes-knights">
+                        <div class="tab">
+                            <button class="tablinks" onclick="openHero(event, 'Valesca')">
+                                <img src="/img/castle/heroes_knights_valesca.jpg" alt="Valesca">
+                                <h4>Валеска</h4>
+                            </button>
+                            <button class="tablinks" onclick="openHero(event, 'Cristian')">
+                                <img src="/img/castle/heroes_knights_cristian.jpg" alt="Cristian">
+                                <h4>Кристиан</h4>
+                            </button>
+                            <button class="tablinks" onclick="openHero(event, 'Orrin')">
+                                <img src="/img/castle/heroes_knights_orrin.jpg" alt="Orrin">
+                                <h4>Оррин</h4>
+                            </button>
+                            <button class="tablinks" onclick="openHero(event, 'Sylvia')">
+                                <img src="/img/castle/heroes_knights_sylvia.jpg" alt="Sylvia">
+                                <h4>Сильвия</h4>
+                            </button>
+                            <button class="tablinks" onclick="openHero(event, 'Sorsha')">
+                                <img src="/img/castle/heroes_knights_sorsha.jpg" alt="Sorsha">
+                                <h4>Сорша</h4>
+                            </button>
+                            <button class="tablinks" onclick="openHero(event, 'Mullich')">
+                                <img src="/img/castle/heroes_knights_mullich.jpg" alt="Mullich">
+                                <h4>Мюллих</h4>
+                            </button>
+                            <button class="tablinks" onclick="openHero(event, 'Tyris')">
+                                <img src="/img/castle/heroes_knights_tyris.jpg" alt="Tyris">
+                                <h4>Тирис</h4>
+                            </button>
+                            <button class="tablinks" onclick="openHero(event, 'Edric')">
+                                <img src="/img/castle/heroes_knights_edric.jpg" alt="Edric">
+                                <h4>Эдрик</h4>
+                            </button>
+                
+                            <figure class="heroes-descr">Рыцари фракции замок</figure>
+                        </div>
+                
+                        <div id="Valesca" class="tabcontent">
+                            <div class="tabcontent-wrapper">
+                                <div class="left-content">
+                                    <h3>Описание героя:</h3>
+                                    <p>Слава меткого стрелка пришла к Валеске, когда она служила в эрафийской армии. Сейчас она не
+                                        только командует собственным войском, но и не жалеет времени на обучение своих арбалетчиков.
+                                        <br><br> Герой в своей стартовой армии имеет от одного до трёх отрядов арбалетчиков по 4-7 ед. в
+                                        каждом; книги заклинаний не имеет.</p>
+                                </div>
+                                <div class="right-content">
+                                    <h3>Навыки и специализация:</h3>
+                                    <figure class="">
+                                        <h4>Валеска является рыцарем, обладающим на старте вторичными навыками базового уровня::</h4>
+                                        <figure class="r-con-skill">
+                                            <img src="/img/skills/leadership.png" alt="Навык лидерство" width="60px" height="65px">
+                                            <figcaption>Лидерство</figcaption>
+                                            <img src="/img/skills/archery.jpg" alt="Навык стрельба" width="60px" height="65px">
+                                            <figcaption>Стрельба</figcaption>
+                                        </figure>
+                                    </figure>
+                                    <h4>Специализация:</h4>
+                                    <figure class="r-con-special">
+                                        <img src="/img/specialization/archers.jpg" alt="Лучники" width="60px" height="65px">
+                                        <p>Повышает навыки атаки и защиты лучников и стрелков при получении каждого уровня после
+                                            второго. Также эти воины получают +1 к параметру скорости.</p>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div id="Cristian" class="tabcontent">
+                            <div class="tabcontent-wrapper">
+                                <div class="left-content">
+                                    <h3>Описание героя:</h3>
+                                    <p>Кристиан всегда был скорее свободным искателем приключений, чем истинным рыцарем. Он исходил весь
+                                        Энрот, прежде чем осесть, наконец, в армии Эрафии. И хотя в душе он бродяга и немного мечтатель,
+                                        его боевые таланты приводят в трепет противников во всех уголках земли.</p>
+                                </div>
+                                <div class="right-content">
+                                    <h3>Навыки и специализация:</h3>
+                                    <figure class="">
+                                        <h4>Кристиан является рыцарем, обладающим на старте вторичными навыками базового уровня:</h4>
+                                        <figure class="r-con-skill">
+                                            <img src="/img/skills/leadership.png" alt="Навык лидерство" width="60px" height="65px">
+                                            <figcaption>Лидерство</figcaption>
+                                            <img src="/img/skills/artillery.png" alt="Навык артиллерия" width="60px" height="65px">
+                                            <figcaption>Артиллерия</figcaption>
+                                        </figure>
+                                    </figure>
+                                    <h4>Специализация:</h4>
+                                    <figure class="r-con-special">
+                                        <img src="/img/specialization/balista.jpg" alt="Баллиста" width="60px" height="65px">
+                                        <p>Повышает атакующие и защитные характеристики баллисты при получении каждого уровня после
+                                            четвёртого.</p>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div id="Orrin" class="tabcontent">
+                            <div class="tabcontent-wrapper">
+                                <div class="left-content">
+                                    <h3>Описание героя:</h3>
+                                    <p>В начале своей военной карьеры Оррин обучался у лучших в Эрафии мастеров осадного дела. Стрелки
+                                        его армий быстро постигают премудрости поражения целей, укрытых за препятствиями.</p>
+                                </div>
+                                <div class="right-content">
+                                    <h3>Навыки и специализация:</h3>
+                                    <figure class="">
+                                        <h4>Оррин является рыцарем, обладающим на старте вторичными навыками базового уровня:</h4>
+                                        <figure class="r-con-skill">
+                                            <img src="/img/skills/leadership.png" alt="Навык лидерство" width="60px" height="65px">
+                                            <figcaption>Лидерство</figcaption>
+                                            <img src="/img/skills/archery.jpg" alt="Навык стрельба" width="60px" height="65px">
+                                            <figcaption>Стрельба</figcaption>
+                                        </figure>
+                                    </figure>
+                                    <h4>Специализация:</h4>
+                                    <figure class="r-con-special">
+                                        <img src="/img/specialization/archery.png" alt="Стрельба" width="60px" height="65px">
+                                        <p>Навык «Стрельба» увеличивается на 5% за каждый уровень.</p>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div id="Sylvia" class="tabcontent">
+                            <div class="tabcontent-wrapper">
+                                <div class="left-content">
+                                    <h3>Описание героя:</h3>
+                                    <p>Сильвия провела несколько лет среди пиратов Регны, прежде чем поняла, что такая жизнь – не по
+                                        ней. Порвав с прошлым, она вступила в армию Эрафии и отправилась служить в береговую охрану,
+                                        отражая набеги тех самых пиратов, вместе с которыми раньше бороздила океаны. Сейчас её усилия
+                                        направлены на создание флота Палаэдры.</p>
+                                </div>
+                                <div class="right-content">
+                                    <h3>Навыки и специализация:</h3>
+                                    <figure class="">
+                                        <h4>Сильвия является рыцарем, обладающим на старте вторичными навыками базового уровня:</h4>
+                                        <figure class="r-con-skill">
+                                            <img src="/img/skills/leadership.png" alt="Навык лидерство" width="60px" height="65px">
+                                            <figcaption>Лидерство</figcaption>
+                                            <img src="/img/skills/navigation.jpg" alt="Навык навигация" width="60px" height="65px">
+                                            <figcaption>Навигация</figcaption>
+                                        </figure>
+                                    </figure>
+                                    <h4>Специализация:</h4>
+                                    <figure class="r-con-special">
+                                        <img src="/img/specialization/navigation.png" alt="Навигация" width="60px" height="65px">
+                                        <p>Добавляет дополнительные 5% к навыку Навигация за каждый уровень.</p>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div id="Sorsha" class="tabcontent">
+                            <div class="tabcontent-wrapper">
+                                <div class="left-content">
+                                    <h3>Описание героя:</h3>
+                                    <p>Следуя примеру королевы Катерины, Сорша вступила в армию Эрафии и быстро завоевала репутацию
+                                        непревзойдённой мечницы. Первый раз она встала во главе войска вскоре после нападения на Эрафию
+                                        проклятых криган.</p>
+                                </div>
+                                <div class="right-content">
+                                    <h3>Навыки и специализация:</h3>
+                                    <figure class="">
+                                        <h4>Сорша является рыцарем, обладающим на старте вторичными навыками базового уровня:</h4>
+                                        <figure class="r-con-skill">
+                                            <img src="/img/skills/leadership.png" alt="Навык лидерство" width="60px" height="65px">
+                                            <figcaption>Лидерство</figcaption>
+                                            <img src="/img/skills/offense.png" alt="Навык атака" width="60px" height="65px">
+                                            <figcaption>Атака</figcaption>
+                                        </figure>
+                                    </figure>
+                                    <h4>Специализация:</h4>
+                                    <figure class="r-con-special">
+                                        <img src="/img/specialization/swordsmen.jpg" alt="Мечники" width="60px" height="65px">
+                                        <p>Повышает навыки атаки и защиты всех мечников и крестоносцев при получении каждого уровня
+                                            после четвёртого.</p>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div id="Mullich" class="tabcontent">
+                            <div class="tabcontent-wrapper">
+                                <div class="left-content">
+                                    <h3>Описание героя:</h3>
+                                    <p>Сэр Мюллих обычно спокойный человек, но время от времени у него бывают приступы весьма
+                                        разрушительного свойства. Говорят, иногда так он запугивает своих людей, чтобы они действовали
+                                        быстрее и решительнее. <br><br> Интересный факт, но этот герой был взят с реального человека,
+                                        одного из разрабочиков героев 3. А ещё интересней его специализация, котоая была дана этому
+                                        герою за вечное требование к другим разрабочикам ускорить их работу над проектом.</p>
+                                </div>
+                                <div class="right-content">
+                                    <h3>Навыки и специализация:</h3>
+                                    <figure class="">
+                                        <h4>Сэр Мюллих является рыцарем, обладающим на старте вторичным навыком продвинутого уровня:
+                                        </h4>
+                                        <figure class="r-con-skill r-con-skill-adelaide">
+                                            <img src="/img/skills/leadership-advanced.png" alt="Навык продвинутое лидерство"
+                                                width="60px" height="65px">
+                                            <figcaption>Продвинутое лидерство</figcaption>
+                                        </figure>
+                                    </figure>
+                                    <h4>Специализация:</h4>
+                                    <figure class="r-con-special">
+                                        <img src="/img/specialization/speed.jpg" alt="Скорость" width="60px" height="65px">
+                                        <p>Все войска героя приобретают +2 к скорости.</p>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div id="Tyris" class="tabcontent">
+                            <div class="tabcontent-wrapper">
+                                <div class="left-content">
+                                    <h3>Описание героя:</h3>
+                                    <p>Тирис быстро поднялась на первые роли в кавалерии Эрафии и не только потому, что никто лучше её
+                                        не умеет обращаться с лошадями, но и благодаря "шестому чувству", когда речь заходит о тактике и
+                                        стратегии конного боя. Ещё никому не удавалось победить её на турнире.</p>
+                                </div>
+                                <div class="right-content">
+                                    <h3>Навыки и специализация:</h3>
+                                    <figure class="">
+                                        <h4>Тирис является рыцарем, обладающим на старте вторичными навыками базового уровня:</h4>
+                                        <figure class="r-con-skill">
+                                            <img src="/img/skills/leadership.png" alt="Навык лидерство" width="60px" height="65px">
+                                            <figcaption>Лидерство</figcaption>
+                                            <img src="/img/skills/tactics.png" alt="Навык тактика" width="60px" height="65px">
+                                            <figcaption>Тактика</figcaption>
+                                        </figure>
+                                    </figure>
+                                    <h4>Специализация:</h4>
+                                    <figure class="r-con-special">
+                                        <img src="/img/specialization/cavaliers.jpg" alt="Кавалеры" width="60px" height="65px">
+                                        <p>Повышает навыки атаки и защиты всадников и чемпионов при получении каждого уровня после
+                                            шестого. Также эти воины получают +1 к параметру скорости.</p>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div id="Edric" class="tabcontent">
+                            <div class="tabcontent-wrapper">
+                                <div class="left-content">
+                                    <h3>Описание героя:</h3>
+                                    <p>Прапрадед Эдрика первым в Эрафии занялся приручением и обучением диких грифонов. Сейчас семья
+                                        Эдрика владеет самым большими в Эрафии питомником грифонов, где эти существа проходят подготовку
+                                        для службы в Королевских вооружённых силах.</p>
+                                </div>
+                                <div class="right-content">
+                                    <h3>Навыки и специализация:</h3>
+                                    <figure class="">
+                                        <h4>Эдрик является рыцарем, обладающим на старте вторичными навыками базового уровня:</h4>
+                                        <figure class="r-con-skill">
+                                            <img src="/img/skills/leadership.png" alt="Навык лидерство" width="60px" height="65px">
+                                            <figcaption>Лидерство</figcaption>
+                                            <img src="/img/skills/defense.png" alt="Навык защита" width="60px" height="65px">
+                                            <figcaption>Защита</figcaption>
+                                        </figure>
+                                    </figure>
+                                    <h4>Специализация:</h4>
+                                    <figure class="r-con-special">
+                                        <img src="/img/specialization/griffins.jpg" alt="Грифоны" width="60px" height="65px">
+                                        <p>Повышает навыки атаки и защиты грифонов и королевских грифонов при получении каждого уровня
+                                            после третьего. Также эти существа получают +1 к параметру скорости.</p>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </section>
+            </div>
+        
+            <aside class="video main-content-right" id="main_video">
+                <h2>Видео об игре</h2>
+                <iframe width="350" height="270" src="https://www.youtube.com/embed/uP3TiMbQgFU" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="350" height="270" src="https://www.youtube.com/embed/zIPZd5rcWD4" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="350" height="270" src="https://www.youtube.com/embed/Z0lqOqnJHhc" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            </aside>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <footer class="footer">
+       <div class="container footer-container">
+
+            <div class="footer-nav">
+                <a href="#">Навыки</a>
+                <a href="magic.html">Магия</a>
+                <a href="#">Артефакты</a>
+            </div>
+
+            <div class="footer-copyright">
+                <p>&copy Все права защищены и принадлежат их авторам</p>
+            </div>
+
+            <div class="footer-logo"><a href="index.html" class="main-transfer"><img src="/img/icon_heroes3.png" alt="logo"></a></div>
+       </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

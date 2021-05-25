@@ -1,0 +1,461 @@
+/* Basic Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Girassol', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+/* For All Styling */
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.point {
+    position: absolute;
+    background-color: white;
+    opacity: 0; 
+}
+
+.modal {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 300px;
+    min-height: 300px;
+    padding: 5px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+
+.modal .modal-img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.modal .modal-img img {
+    max-width: 100px;
+    max-height: auto;
+}
+
+.modal .modal-char {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.modal .modal-char p {
+    font-weight: 600;
+}   
+
+.modal h3 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+} 
+
+.modal h4 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+/* Main Screen Styling */
+
+.main-screen {
+    background-image: url("/img/castle/bg_castle.jpg");
+    background-size: cover;
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    width: 100%;
+    
+    position: relative;
+}
+
+.main-audio {
+    position: absolute;
+    bottom: 140px;
+    right: 10px;
+    opacity: 0.7;
+}
+
+/* Points Styling */
+
+.tavern {
+    width: 80px;
+    height: 170px;
+    left: 45px;
+    top: 480px;
+}
+
+
+.capitol {
+    width: 200px;
+    height: 230px;
+    left: 170px;
+    top: 400px;
+}
+
+.griffin {
+    width: 130px;
+    height: 180px;
+    left: 200px;
+    top: 140px;
+}
+
+.pikeman {
+    width: 100px;
+    height: 200px;
+    top: 140px;
+    left: 615px;
+}
+
+.swordsman {
+    width: 80px;
+    height: 160px;
+    top: 170px;
+    left: 480px;
+}
+
+.angel {
+    width: 300px;
+    height: 120px;
+    top: 35px;
+    left: 750px;
+}
+
+.archer {
+    width: 80px;
+    height: 140px;
+    top: 225px;
+    left: 750px;
+}
+
+.graal {
+    width: 80px;
+    height: 140px;
+    top: 220px;
+    left: 920px;
+}
+
+.monk {
+    width: 240px;
+    height: 100px;
+    top: 380px;
+    left: 1120px;
+}
+
+.lighthouse {
+    width: 40px;
+    height: 190px;
+    top: 170px;
+    left: 1117px;
+}
+
+.cavalier {
+    width: 350px;
+    height: 100px;
+    top: 420px;
+    left: 420px;
+    transform: rotate(170deg)
+}
+
+.stables {
+    width: 120px;
+    height: 70px;
+    top: 385px;
+    left: 820px;
+}
+
+.mage-tower {
+    width: 55px;
+    height: 270px;
+    top: 200px;
+    left: 1460px;
+}
+
+.marketplace {
+    width: 400px;
+    height: 100px;
+    top: 590px;
+    left: 880px;
+    transform: rotate(10deg)
+}
+
+.forge {
+    width: 150px;
+    height: 150px;
+    top: 550px;
+    left: 530px;
+}
+
+.silo {
+    width: 50px;
+    height: 90px;
+    top: 460px;
+    left: 970px;
+}
+
+.castle {
+    width: 200px;
+    height: 200px;
+    top: 140px;
+    left: 1200px;
+}
+
+.port {
+    width: 80px;
+    height: 40px;
+    top: 390px;
+    left: 1015px;
+}
+
+/* Modal Windows Styling */
+
+.modal-pikeman {
+    top: 80px;
+    left: 500px;
+}
+
+.modal-griffin {
+    top: 50px;
+    left: 100px;
+}
+
+.modal-swordsman {
+    top: 100px;
+    left: 300px;
+}
+
+.modal-archer {
+    top: 150px;
+    left: 700px;
+}
+
+.modal-angel {
+    top: 20px;
+    left: 748px;
+}
+
+.modal-monk {
+    top: 330px;
+    right: 140px;
+}
+
+.modal-cavalier {
+    top: 300px;
+    left: 425px;
+}
+
+/* Main Content Styling */
+.main-content {
+    padding: 20px 0;
+    background-image: url("/img/bg_blue3.jpg");
+    background-repeat: repeat;
+    /* color: rgb(212, 186, 39); */
+    color: white;
+}
+/* Section Description Styling */
+
+.description {
+    font-family:'Girassol', cursive; 
+}
+
+.main-content .description p {
+    margin-top: 20px;
+}
+
+/* Section Heroes Styling */
+
+.heroes-title h2 {
+    text-align: center;
+}
+
+.heroes-descr {
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    padding: 25px;
+    color: black;
+}
+
+.heroes-descr:hover {
+    font-weight: 700;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+
+    margin-top: 20px;
+}
+  
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+  
+.tab button:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+  
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tabcontent-wrapper {
+    display: flex;
+}
+
+.left-content {
+    text-align: center;
+    border-right: 2px dotted black;
+    padding: 10px;
+    flex: 1;
+}
+
+.left-content h3{
+    margin-bottom: 5px;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    text-align: center;
+    padding: 10px;
+}
+
+.right-content h4 {
+    margin-top: 5px;
+}
+
+.r-con-skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.r-con-special {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.r-con-special img {
+    margin-right: 10px;
+}
+
+.r-con-skill-adelaide {
+    justify-content: left;
+}
+
+.r-con-skill-adelaide img {
+    margin-right: 15px;
+}
+
+/* Section Video Styling */
+
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video iframe {
+    margin-top: 30px;
+}
+
+/* Footer Styling */
+
+.footer {
+    min-height: 100px;
+    background: url("/img/bg_brown.jpg") repeat;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav a {
+    padding-right: 50px;
+}
+
+.footer-nav a:hover {
+   font-size: 24px;
+}
+
+.footer-nav a:last-child {
+    padding-right: 0;
+}
+
+.footer-copyright {
+    color: white;
+    margin-right: 50px;
+}
+
+.footer-copyright:hover {
+    transform: scale(1.2);
+}
+
+.footer-logo {
+    padding-right: 20px;
+}
+
+.footer-logo .main-transfer >img {
+    max-width: 100px;
+    height: auto;
+}
+
+.footer-logo .main-transfer img:hover {
+    transform: scale(1.1);
+}
